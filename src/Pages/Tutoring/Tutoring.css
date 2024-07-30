@@ -1,0 +1,45 @@
+.tutoring-wrapper{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  gap: 0rem;
+}
+.tutoring{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  align-items: left;
+  height: 100%;
+  max-width: 50rem;
+  margin-top: calc(-3rem - 2.5px);
+  margin-bottom: auto;
+  margin-right: auto;
+  margin-left: auto;
+}
+.tutoring p{
+  max-width: 50rem;
+}
+.tutoring p span{
+  font-weight: 600;
+}
+.page-links{
+  text-decoration: none;
+  color: inherit;
+}
+.page-links span{
+  display: inline-block;
+  background-color: #e7d5efaa;
+  transition: 0.3s;
+  margin-left: -3px;
+  padding-left: 3px;
+  padding-right: 3px;
+  padding-top:1px;
+}
+.page-links span:hover{
+  cursor: pointer;
+  background-color: #e7d5ef;
+  transition: 0.3s;
+  transform: scale(1.1);
+}

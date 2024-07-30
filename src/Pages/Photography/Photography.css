@@ -1,0 +1,49 @@
+.photography-wrapper{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  gap: 0rem;
+}
+.photography{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 2rem;
+  max-width: 50rem;
+  margin-top: 2rem;
+  margin-bottom: auto;
+  margin-right: auto;
+  margin-left: auto;
+}
+.photography h1{
+  margin-bottom: 0rem;
+}
+.photography p{
+  max-width: 50rem;
+}
+.photography img{
+  max-width: 35rem;
+  margin:auto;
+}
+.photography img{
+  max-width: 35rem;
+  margin:auto;
+}
+.photo-info{
+  display: flex;
+  max-width: 35rem;
+  justify-content: space-between;
+}
+.info-make-model{
+  display: flex;
+  flex-direction: column;
+}
+.info-shot{
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+.photography .page-links{
+  margin-top: -1.6rem;
+}

@@ -1,0 +1,36 @@
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  margin-top: calc(-3rem - 2.5px);
+  margin-bottom: auto;
+  margin-right: auto;
+  margin-left: auto;
+}
+.menu-list{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  padding: 5rem 5rem;
+  transition: 0.3s;
+}
+.menu-list span{
+  background-color: transparent;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+.menu-list span:hover{
+  cursor: pointer;
+  background-color: #e7d5ef;
+  transition: 0.3s;
+  padding-left: 3px;
+  padding-right: 3px;
+  padding-top:1px;
+}
+.menu-links{
+  text-decoration: none;
+  color: inherit;
+}

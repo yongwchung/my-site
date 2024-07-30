@@ -1,0 +1,26 @@
+.about-wrapper{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  gap: 0rem;
+}
+.about{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  align-items: start;
+  height: 100%;
+  max-width: 50rem;
+  margin-top: calc(-3rem - 2.5px);
+  margin-bottom: auto;
+  margin-right: auto;
+  margin-left: auto;
+}
+.about p{
+  max-width: 50rem;
+}
+.about p span{
+  font-weight: 600;
+}

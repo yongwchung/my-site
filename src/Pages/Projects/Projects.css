@@ -1,0 +1,26 @@
+.projects-wrapper{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  gap: 0rem;
+}
+.projects{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  align-items: left;
+  height: 100%;
+  max-width: 50rem;
+  margin-top: calc(-3rem - 2.5px);
+  margin-bottom: auto;
+  margin-right: auto;
+  margin-left: auto;
+}
+.projects p{
+  max-width: 50rem;
+}
+.projects p span{
+  font-weight: 600;
+}

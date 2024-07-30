@@ -1,0 +1,24 @@
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 2rem;
+}
+.navbar span{
+  background-color: transparent;
+  padding-left: 3px;
+  padding-right: 3px;
+  transition: 0.3s;
+}
+.navbar span:hover{
+  cursor: pointer;
+  background-color: #e7d5ef;
+  transition: 0.3s;
+  padding-left: 3px;
+  padding-right: 3px;
+  padding-top: 1px;
+}
+
+.menu-links{
+  text-decoration: none;
+  color: inherit;
+}

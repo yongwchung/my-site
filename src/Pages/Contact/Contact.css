@@ -1,0 +1,31 @@
+.contact-wrapper{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  gap: 0rem;
+}
+.contact{
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+  justify-content: center;
+  align-items: left;
+  height: 100%;
+  max-width: 50rem;
+  margin-top: calc(-3rem - 2.5px);
+  margin-bottom: auto;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.contact h1{
+  margin-bottom: 2rem;
+}
+
+.contact p{
+  max-width: 50rem;
+}
+.contact p span{
+  font-weight: 600;
+}
