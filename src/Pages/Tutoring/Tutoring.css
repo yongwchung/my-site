@@ -8,18 +8,20 @@
 .tutoring{
   display: flex;
   flex-direction: column;
-  gap: 2rem;
   justify-content: center;
-  align-items: left;
-  height: 95vh;
   max-width: 50rem;
-  margin-top: calc(-3rem - 2.5px);
+  margin-top: 2rem;
   margin-bottom: auto;
   margin-right: auto;
   margin-left: auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.tutoring h1{
+  margin-bottom: 2rem;
 }
 .tutoring p{
-  max-width: 50rem;
+  margin-bottom: 2rem;
 }
 .tutoring p span{
   font-weight: 600;
@@ -36,10 +38,19 @@
   padding-left: 3px;
   padding-right: 3px;
   padding-top:1px;
+  margin-bottom: 2rem;
 }
 .page-links span:hover{
   cursor: pointer;
   background-color: #e7d5ef;
   transition: 0.3s;
   transform: scale(1.1);
+}
+/* on desktop... */
+@media only screen and (min-width: 768px) {
+  .tutoring{
+    /* center the text with 100vh and negative margin for the navbar */
+    height: 100vh;
+    margin-top: -35.5px;
+  }
 }

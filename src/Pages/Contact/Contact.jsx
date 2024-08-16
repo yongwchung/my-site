@@ -18,7 +18,7 @@ const Contact = () => {
           <span>Located In:</span> Winchester and San Diego, CA
         </p>
         <p>
-          <span>Current Services:</span> Tutoring ($40/hr), Portrait Photography ($90 for 1hr session)
+          <span>Current Services:</span> Tutoring ($40/hr), Portrait Photography
         </p>
       </div>
     </div>

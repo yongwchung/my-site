@@ -4,10 +4,12 @@ import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
-    <div className="navbar">
+    <nav className="navbar">
       <p>Yong Chung</p>
-      <Link className='menu-links' to='/'><span>home</span></Link>
-    </div>
+      <Link className='menu-links' to='/'>
+        <span>home</span>
+      </Link>
+    </nav>
   )
 }
 

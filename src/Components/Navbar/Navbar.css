@@ -1,12 +1,20 @@
 .navbar{
   display: flex;
-  justify-content: space-between;
-  margin: 1rem 2rem;
+  justify-content:space-between;
+  align-items: center;
+  width: 100%;
+  padding-top: 1rem;
+  z-index: 1;
+}
+.navbar p{
+  padding-left: 2rem;
 }
 .navbar span{
+  display: block;
   background-color: transparent;
   padding-left: 3px;
   padding-right: 3px;
+  padding-top: 1px;
   transition: 0.3s;
 }
 .navbar span:hover{
@@ -19,6 +27,7 @@
 }
 
 .menu-links{
+  padding-right: 2rem;
   text-decoration: none;
   color: inherit;
 }

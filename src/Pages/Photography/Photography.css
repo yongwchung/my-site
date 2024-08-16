@@ -8,23 +8,22 @@
 .photography{
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  gap: 2rem;
-  max-width: 50rem;
+  justify-content: center;
+  max-width: 80vw;
   margin-top: 2rem;
   margin-bottom: auto;
   margin-right: auto;
   margin-left: auto;
 }
 .photography h1{
-  margin-bottom: 0rem;
+  margin-bottom: 2rem;
 }
 .photography p{
-  max-width: 50rem;
+  font-size: 14px;
 }
 .photography img{
-  max-width: 35rem;
-  margin:auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 .photo-info{
   display: flex;
@@ -42,4 +41,17 @@
 }
 .photography .page-links{
   margin-top: -1.6rem;
+  margin-bottom: -1.6rem;
+}
+
+/* on desktop... */
+@media only screen and (min-width: 768px) {
+  /* only need to fit width on desktop for this page */
+  /* large font as well */
+  .photography{
+    max-width: 35rem;
+  }
+  .photography p{
+    font-size: 16px;
+  }
 }

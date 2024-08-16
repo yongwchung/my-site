@@ -90,7 +90,7 @@ const Photography = () => {
               </>)
             })
           }
-          <div></div>
+          <img/> {/*whitespace*/}
         </div>
       </div>
     );

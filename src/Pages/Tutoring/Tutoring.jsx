@@ -10,11 +10,11 @@ const Tutoring = () => {
       <div className='tutoring'>
         <h1>tutoring</h1>
         <p>
-          I am a <span>UCSD Computer Science (B.S., Magna Cum Laude) graduate</span> with experience as an official UCSD undergraduate tutor for the Computer Science department.
+          I am a <span>UCSD Computer Science (B.S., Magna Cum Laude Honors) graduate</span> with experience as an official UCSD undergraduate tutor for the Computer Science department.
           I also transferred through the California Community College system (Diablo Vista, Miramar).
         </p>
         <p>
-          As such, I am confident in tutoring <span>Computer Science courses (coding, theory), Mathematics.</span>
+          Therefore, I am confident in tutoring <span>Computer Science courses (coding, theory), Mathematics.</span>
         </p>
         <p>
           Furthermore, I can provide <span>mentorship to High School, Community College, and UC students.</span> Specifically, I can help High School students build a path to Community College/UC, Community College students build a path to UC/University, and UC students achieve success at school (tutoring, M.S. program).

@@ -9,8 +9,8 @@ const About = () => {
       <div className='about'>
         <h1>about me</h1>
         <p>
-          My name is Will Chung and I'm currently a solo developer learning various skills. 
-          Right now, I'm working on designing websites with ReactJS.
+          My name is Yong Chung and I'm currently a solo developer learning various skills. 
+          Right now, I'm learning full stack dev with ReactJS and various database implementations.
         </p>
         <p>
           I graduated from <span>UCSD </span>with a <span>B.S. in Computer Science</span> at the end of 2021.

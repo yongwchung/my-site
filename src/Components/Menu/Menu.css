@@ -2,8 +2,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 95vh;
-  width: 95vh;
+  height: 100vh;
+  margin-top: -3.2rem;
   margin-bottom: auto;
   margin-right: auto;
   margin-left: auto;

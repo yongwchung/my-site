@@ -8,19 +8,29 @@
 .projects{
   display: flex;
   flex-direction: column;
-  gap: 2rem;
   justify-content: center;
-  align-items: left;
-  height: 95vh;
   max-width: 50rem;
-  margin-top: calc(-3rem - 2.5px);
+  margin-top: 2rem;
   margin-bottom: auto;
   margin-right: auto;
   margin-left: auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.projects h1{
+  margin-bottom: 2rem;
 }
 .projects p{
-  max-width: 50rem;
+  margin-bottom: 2rem;
 }
 .projects p span{
   font-weight: 600;
+}
+/* on desktop... */
+@media only screen and (min-width: 768px) {
+  .projects{
+    /* center the text with 100vh and negative margin for the navbar */
+    height: 100vh;
+    margin-top: -35.5px;
+  }
 }

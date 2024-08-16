@@ -1,0 +1,56 @@
+.resume-wrapper{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  gap: 0rem;
+}
+.resume{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 50rem;
+  margin-top: 2rem;
+  margin-bottom: auto;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.resume h1{
+  margin-bottom: 2rem;
+}
+.resume p{
+  margin-bottom: 2rem;
+}
+.resume-link:hover{
+  cursor: pointer;
+}
+.resume-link span{
+  display:inline-block;
+  background-color: #e7d5efaa;
+  transition: 0.3s;
+  margin-left: -3px;
+  padding-left: 3px;
+  padding-right: 3px;
+  padding-top:1px;
+  margin-bottom: 2rem;
+}
+.resume-link span:hover{
+  cursor: pointer;
+  background-color: #e7d5ef;
+  transition: 0.3s;
+  transform: scale(1.1);
+}
+.button-list{
+  display: flex;
+  justify-content: space-between;
+}
+/* on desktop... */
+@media only screen and (min-width: 768px) {
+  .resume{
+    /* center the text with 100vh and negative margin for the navbar */
+    height: 100vh;
+    margin-top: -35.5px;
+  }
+}
