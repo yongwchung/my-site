@@ -54,31 +54,35 @@ const Photography = () => {
   }
 
   function showExifData(index) {
-    return (
-    <div className='photo-info'>
-      <div className="info-make-model">
-        <p>
-          {data && (data[index]["Make"]).toUpperCase()}
-        </p>
-        <p>
-          {data && (data[index]["Model"]).toUpperCase()}
-        </p>
-      </div>
-      <div className="info-shot">
-        <p>
-          {data && data[index]["FocalLength"] + "mm"}
-        </p>
-        <p>
-          {data && ("f/" + data[index]["FNumber"])}
-        </p>
-        <p>
-          {data && ("1/" + convertShutterToString(data[index]["ExposureTime"]))}
-        </p>
-        <p>
-          {data && ("ISO " + data[index]["ISO"])}
-        </p>
-      </div>
-    </div>);
+    if (data) {
+      return (
+        <div className='photo-info'>
+          <div className="info-make-model">
+            <p>
+              {(data[index]["Make"]).toUpperCase()}
+            </p>
+            <p>
+              {(data[index]["Model"]).toUpperCase()}
+            </p>
+          </div>
+          <div className="info-shot">
+            <p>
+              {data[index]["FocalLength"] + "mm"}
+            </p>
+            <p>
+              {("f/" + data[index]["FNumber"])}
+            </p>
+            <p>
+              {("1/" + convertShutterToString(data[index]["ExposureTime"]))}
+            </p>
+            <p>
+              {("ISO " + data[index]["ISO"])}
+            </p>
+          </div>
+        </div>);
+    } else {
+      return (<p>Loading photo info...</p>)
+    }
   }
 
   function convertShutterToString(shutter_string) {
